@@ -1,0 +1,117 @@
+/* Typography */
+
+html {
+	font-family: 'Orbitron', sans-serif;
+font-family: 'Oxanium', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Orbitron', sans-serif;
+font-family: 'Oxanium', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+.intro, .tagline {
+    color: white;
+}
+/* Add this to your CSS file or within a <style> tag in your HTML file */
+
+.tagline span {
+    opacity: 0;
+    display: inline-block;
+    animation: typing 0.5s forwards;
+}
+
+@keyframes typing {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.tagline span:nth-child(1) { animation-delay: 0s; }
+.tagline span:nth-child(2) { animation-delay: 0.1s; }
+.tagline span:nth-child(3) { animation-delay: 0.2s; }
+.tagline span:nth-child(4) { animation-delay: 0.3s; }
+.tagline span:nth-child(5) { animation-delay: 0.4s; }
+.tagline span:nth-child(6) { animation-delay: 0.5s; }
+.tagline span:nth-child(7) { animation-delay: 0.6s; }
+.tagline span:nth-child(8) { animation-delay: 0.7s; }
+.tagline span:nth-child(9) { animation-delay: 0.8s; }
+.tagline span:nth-child(10) { animation-delay: 0.9s; }
+.tagline span:nth-child(11) { animation-delay: 0.10s; }
+.tagline span:nth-child(12) { animation-delay: 0.11s; }
+.tagline span:nth-child(13) { animation-delay: 0.12s; }
+.tagline span:nth-child(14) { animation-delay: 0.13s; }
+.tagline span:nth-child(15) { animation-delay: 0.14s; }
+.tagline span:nth-child(16) { animation-delay: 0.15s; }
+.tagline span:nth-child(17) { animation-delay: 0.16s; }
+.tagline span:nth-child(18) { animation-delay: 0.17s; }
+.tagline span:nth-child(19) { animation-delay: 0.18s; }
+.tagline span:nth-child(20) { animation-delay: 0.19s; }
+.tagline span:nth-child(21) { animation-delay: 0.20s; }
+.tagline span:nth-child(22) { animation-delay: 0.21s; }
+
+
+
